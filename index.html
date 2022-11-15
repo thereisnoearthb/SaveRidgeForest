@@ -111,12 +111,12 @@
               <p>
                 A Citizens’ appeal to repair the Central Ridge Forest wall and resolve the waste dumping issue.
               </p><br>
-              <!-- <p>
+              <p>
                 <label id="emailInput"></label> people have sent the email so far ✊
-              </p><br> -->
-              <!-- <p>Also, Tweet to spread the word.</p>
+              </p><br>
+              <p>Also, Tweet to spread the word.</p>
                 <a id="tweet-quote" target="_blank" class='fa fa-twitter' title="Tweet this Quote!"> Tweet!
-                </a> -->
+                </a>
             </div>
           </div>
 
@@ -161,8 +161,8 @@
 
      </header>
     <script type="text/javascript">
-    //   var emailSent=1855;
-    //   document.getElementById('emailInput').innerHTML = emailSent;
+       var emailSent=40;
+       document.getElementById('emailInput').innerHTML = emailSent;
       document.addEventListener('DOMContentLoaded', function () {
         M.AutoInit();
 
@@ -174,7 +174,7 @@
         console.log(elems)
         var instances = M.Carousel.init(elems, options);
       })
-    //   document.getElementById('tweet-quote').setAttribute('href','https://twitter.com/intent/tweet/?text='+ "👋🏽 @LtGovDelhi,%0A%0A "+1855+" Delhiites have written to you to %23SaveSanjayVan from commercialization.%0A%0AWe do not need restaurants, tours, or conferences inside the reserve forest.%0A%0APlease don't let @official_dda and @WWFINDIA convert %23SanjayVan into a park.");
+   document.getElementById('tweet-quote').setAttribute('href','https://twitter.com/intent/tweet/?text='+ emailSent +" Delhiites have sent emails to %23SaveRidgeForest from destruction. Act now: bit.ly/SaveRidgeForest";
 
     </script>
 </body>
